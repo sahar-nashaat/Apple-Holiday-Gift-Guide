@@ -1,0 +1,273 @@
+/* leave for card w and h 
+any pic fixed height
+put padd 0
+div 5 for dflex flexcol 
+align item center 
+text special width ad height
+row is better for responsive
+
+
+pics dflex
+class cont text wid %
+img wid%
+img imh 100%
+height 100% and w watch img plusss text
+ps from left 
+
+*/
+body{
+    background-image: linear-gradient(to right top, #01012a, #050a33, #08113d, #101546, #181950);
+background-size: cover;
+height: 900vh;
+}
+
+.nav-link {
+    color: white;
+    border-bottom: white;
+    font-weight: 600;
+}
+
+
+.new-content{
+color: white;
+
+}
+
+
+.card{
+    height: 100%;
+    width: 100%;
+    
+}
+.card img{
+    width:320px;
+    height:270px;
+}
+.row.g-2 {
+margin-top: -35px;
+justify-content: center;
+}
+.col-md-4{
+    width: 330px;
+    height:510px
+    
+}
+.col-md-8{
+    width: 660px;
+    height:510px
+
+}
+
+.dev-img{
+    align-self: flex-end;
+    width: 281px;
+    height: 464px;
+}
+.new-img{
+    width: 587px;
+    height: 792px;
+    object-fit:cover;
+    max-height: 788px;
+    
+}
+.nav ul li a{
+    border-bottom: 1;
+}
+.nav{
+    justify-content: center;
+    display: flex;
+}
+ul .nav{
+   width: 50%;
+    margin-top: 12px;
+    margin-left: 314px;
+    margin-right: 314px;
+}
+#new .row>* {
+width: 50%;
+}
+#new .row p{
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: 0.004em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(245, 245, 247);
+    margin-left: 34px;
+}
+#new .row h2{
+    font-size: 80px;
+    line-height: 1.05;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(245, 245, 247);
+    margin-left: 34px;
+}
+#new .row h3{
+    font-size: 24px;
+    line-height: 1.33341;
+    font-weight: 400;
+    letter-spacing: 0.009em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(245, 245, 247);
+    margin-left: 34px;
+}
+#products{
+    margin-top: -361px;
+}
+.col-md-8 img {
+    width: 281px;
+    height: 509px;}
+    .col-md-8 .card-body {
+        width: 50%;
+        margin-top: -470px;
+    }
+
+        .col-md-8 .card-body p{
+        display: flex;
+        justify-items: start;
+        margin-left: 26px;
+        color: rgb(82, 69, 112);
+        font-size: 24px;
+        line-height: 1.16667;
+        font-weight: 600;
+        letter-spacing: 0.009em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    .col-md-8 .card-body h3{
+        display: flex;
+        justify-items: start;
+        margin-left: 3px;
+        color: rgb(82, 69, 112);
+        font-size: 48px;
+        line-height: 1.08349;
+        font-weight: 600;
+        letter-spacing: -0.003em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        margin-top: 9px;
+        text-align: start;
+
+    }
+
+    .watch img {
+        display: flex;
+        justify-content: center;
+        height: 264px;
+        width: 533px;
+        margin-top: 245px;
+        margin-right: 116px;
+    }
+    .col-md-8 .card{
+        background-color: #f4f0ff;
+    }
+    .watch .card-body{
+        width: 100%;
+    margin-top: -491px;
+   
+    }
+    .watch .card-body h3{
+        margin-top: -9px;
+
+
+width: 100%;
+    }
+    .watch .card-body p{
+        margin-top: 13px;
+       margin-left: 10px;
+       margin-right: 143px;
+    }
+    .purple .card{
+        background-color:#3b4582 ;
+        overflow: hidden;
+        
+    }
+    .purple .card-body p{
+        color:#ecefff ;
+        margin-left: 10px;
+        margin-bottom: -11px;
+    }
+    .purple .card-body h3{
+        color:#ecefff ;
+
+    }
+    .purple .card-body{
+        height: 20%;
+        width: 67%;
+        margin-bottom: 10px;
+    }
+    .purple img{
+        width: 779px;
+        height: 319px;
+        margin-top: 169px;
+        margin-left: -166px;
+        margin-right: 35px;
+    }
+    .add{
+       width: 88%;
+    }
+
+    .col-md-12{
+        height: 400px;
+        margin-top: 128px;
+    }
+    .col-md-12 img{
+        width: 106px;
+        height: 62px;
+    }
+    .col-md-12 .card-body{
+       width: 65%;
+       margin-left: 165px;
+       margin-top: 39px;
+    } 
+    .col-md-12 h3{
+        font-size: 24px;
+    }
+    .col-md-12 h2{
+        font-size: 48px;
+    }
+    .addImg{
+        display: flex;
+    justify-content: space-evenly;
+    }
+    #gifts .row p{
+        font-size: 32px;
+        line-height: 1.125;
+        font-weight: 600;
+        letter-spacing: 0.004em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: rgb(245, 245, 247);
+        margin-left: 34px;
+    }
+    #gifts .row h2{
+        font-size: 80px;
+        line-height: 1.05;
+        font-weight: 600;
+        letter-spacing: -0.015em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: rgb(245, 245, 247);
+        margin-left: 34px;
+    }
+    #gifts .row h3{
+        font-size: 24px;
+        line-height: 1.33341;
+        font-weight: 400;
+        letter-spacing: 0.009em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: rgb(245, 245, 247);
+        margin-left: 34px;
+    }
+    #gifts .row>* {
+        width: 50%;
+        }
+    #gifts img{
+        width: 526px;
+        height: 565px;
+     }
+     #gifts{
+        margin-top: 13rem;
+     }
+     #products2{
+        margin-top: 10px;
+     }
